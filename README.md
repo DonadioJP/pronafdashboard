@@ -16,20 +16,52 @@ Key features:
 - Focused examination of specific product investments (e.g., rural tourism)
 - Policy impact assessment and regional disparity analysis
 
-ps: Data is too big to be uploaded here, but can be obtained at [![Banco Central do Brasil website](https://www.bcb.gov.br/estabilidadefinanceira/micrrural).
+## Data Sources
+
+The primary datasets for this project are too large to host directly in this repository but can be obtained from the following sources:
+
+1. **PRONAF Loan Records** - Official microdata from:
+   [![Banco Central do Brasil](https://img.shields.io/badge/Source-BCB-1e40af)](https://www.bcb.gov.br/estabilidadefinanceira/micrrural)
+   - Requires registration on the BCB website
+   - Look for "Microdados do Crédito Rural" (Rural Credit Microdata)
+   - Recommended filters: PRONAF program, 2013-2024 date range
+
+2. **Geospatial Boundaries** (included in repository):
+   
+   ```bash
+   # Brazilian municipal boundaries (2020) via geobr package
+   municipalities <- geobr::read_municipality(code_muni="all", year=2020)
+   ```
+   
+## Dashboard Demonstration
+
+See the PRONAF dashboard in action with this walkthrough video:
+
+[![PRONAF Dashboard Demo](https://img.youtube.com/vi/17zhB9qcFMc/0.jpg)](https://youtu.be/17zhB9qcFMc)
+
+*(Click the image above to watch the full demonstration on YouTube)*
+
+### Key Features Shown in Demo:
+- Dynamic filtering by year and region
+- Geospatial visualization of loan distribution by products
+- Comparative analysis tools
 
 ## Repository Structure
+
 pronafdashboard/
 
 ├── scripts/
 
-│ ├── 01_data_cleaning.R
+│ ├── Analysis.R
 
-│ ├── 02_geospatial.R
+│ ├── dashboard/
 
-│ ├── 03_analysis.R
+│ │ ├── data.R
 
-├── app.R
+│ │ ├── install.R
+
+│ │ ├── app.R
+
 
 ├── LICENSE
 
