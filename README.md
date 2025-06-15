@@ -16,14 +16,10 @@ Key features:
 - Focused examination of specific product investments (e.g., rural tourism)
 - Policy impact assessment and regional disparity analysis
 
+ps: Data is too big to be uploaded here, but can be obtained at [![Banco Central do Brasil website](https://www.bcb.gov.br/estabilidadefinanceira/micrrural).
+
 ## Repository Structure
 pronafdashboard/
-
-├── data/
-
-│ ├── raw/
-
-│ ├── processed/
 
 ├── scripts/
 
