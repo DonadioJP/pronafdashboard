@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-4.4.3-blue.svg)](https://www.r-project.org/)
-[![Shiny](https://img.shields.io/badge/Shiny-1.7.0+-brightgreen.svg)](https://shiny.rstudio.com/)
+[![Shiny](https://img.shields.io/badge/Shiny-1.10.0-brightgreen.svg)](https://shiny.rstudio.com/)
 
 ## Project Overview
 
