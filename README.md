@@ -18,13 +18,23 @@ Key features:
 
 ## Repository Structure
 pronafdashboard/
+
 ├── data/
+
 │ ├── raw/
+
 │ ├── processed/
+
 ├── scripts/
+
 │ ├── 01_data_cleaning.R
+
 │ ├── 02_geospatial.R
+
 │ ├── 03_analysis.R
+
 ├── app.R
+
 ├── LICENSE
+
 └── README.md
