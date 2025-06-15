@@ -4,8 +4,6 @@
 [![R](https://img.shields.io/badge/R-4.3.0+-blue.svg)](https://www.r-project.org/)
 [![Shiny](https://img.shields.io/badge/Shiny-1.7.0+-brightgreen.svg)](https://shiny.rstudio.com/)
 
-![PRONAF Brazil Map](images/pronaf.jpg)
-
 ## Project Overview
 
 This project analyzes the National Program for Family Agriculture (PRONAF) loans across Brazil from 2013-2024, evaluating R$64 billion (2024 value) in agricultural loans through geospatial analysis and interactive visualization.
@@ -20,8 +18,8 @@ Key features:
 
 The primary datasets for this project are too large to host directly in this repository but can be obtained from the following sources:
 
-1. **PRONAF Loan Records** - Official microdata from:
-   [![Banco Central do Brasil](https://img.shields.io/badge/Source-BCB-1e40af)](https://www.bcb.gov.br/estabilidadefinanceira/micrrural)
+1. **PRONAF Loan Records** - Official data from:
+   [![Banco Central do Brasil](https://img.shields.io/badge/Databases-BCB-1e40af)](https://www.bcb.gov.br/estabilidadefinanceira/micrrural)
    - Requires registration on the BCB website
    - Look for "Microdados do Crédito Rural" (Rural Credit Microdata)
    - Recommended filters: PRONAF program, 2013-2024 date range
